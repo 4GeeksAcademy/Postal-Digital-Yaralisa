@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+}
+.izquierdo{
+    padding: 5px;
+    background-color: white;
+    grid-area: 1 / 1;
+}
+.derecho{
+    padding-right: 5px;
+    background-color: white;
+    grid-area: 1 / 2;
+}
+.derecho input{
+    display: block;
+    margin-left: 5px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+div img{
+    width: 60px;
+    height: 60px;
+    float: right;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+.boton{
+    background-color: white;
+    text-align: center;
+    grid-area: 2 / 1 / auto / span 2;
+    padding-bottom: 5px;
+}
+button{
+    background-color: gray;
+}
